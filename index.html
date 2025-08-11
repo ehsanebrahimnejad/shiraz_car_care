@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Shiraz Car Care - Reliable auto repair shop offering diagnostics, brakes, oil changes, AC service, tires, and more in Shiraz." />
+  <title>Shiraz Car Care</title>
+  <style>
+    :root{--accent:#0b57a4; --dark:#1e1e1e; --muted:#666;}
+    *{box-sizing:border-box}
+    body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; color:#222;}
+    header{background:linear-gradient(90deg, #083d70 0%, #0b57a4 100%); color:white; padding:18px 16px; text-align:center;}
+    .wrap{max-width:1100px; margin:20px auto; padding:0 16px;}
+    .logo-hero{display:flex; gap:18px; align-items:center; justify-content:center; flex-wrap:wrap; padding:18px 0;}
+    .logo-hero img{max-width:320px; width:45%; height:auto; border-radius:12px; box-shadow:0 8px 24px rgba(11,87,164,0.15);}
+    .title-block{text-align:center;}
+    h1{margin:6px 0; font-size:clamp(20px,3.4vw,36px);}
+    p.lead{margin:6px 0 0; color:var(--muted);}
+    nav{display:flex; justify-content:center; gap:10px; margin-top:12px;}
+    nav a{background:#fff1; color:white; padding:10px 14px; text-decoration:none; border-radius:8px; font-weight:600;}
+    .card-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px; margin-top:20px;}
+    .card{background:#fff; border-radius:10px; padding:16px; box-shadow:0 6px 18px rgba(15,15,15,0.06);}
+    .card h3{margin:0 0 8px;}
+    footer{text-align:center; color:#fff; background:#111; padding:14px 8px; margin-top:28px;}
+    .contact-row{display:flex; gap:12px; flex-wrap:wrap; justify-content:center; margin-top:14px;}
+    .btn{display:inline-block; background:var(--accent); color:white; padding:10px 14px; border-radius:8px; text-decoration:none; font-weight:700;}
+    @media (max-width:560px){ .logo-hero img{width:80%;} .title-block h1{font-size:20px;} }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="logo-hero">
+        <img src="logo.png" alt="Shiraz Car Care logo" />
+      </div>
+      <div class="title-block">
+        <h1>Shiraz Car Care</h1>
+        <p class="lead">Reliable auto repair you can trust — fast diagnostics, honest pricing, same-day repairs when possible.</p>
+        <nav>
+          <a href="#services">Services</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap" role="main">
+    <section id="services">
+      <h2>Our Services</h2>
+      <div class="card-grid">
+        <article class="card">
+          <h3>Diagnostics & Checkups</h3>
+          <p>Accurate problem detection with the latest tools and experienced technicians.</p>
+        </article>
+        <article class="card">
+          <h3>Brakes & Suspension</h3>
+          <p>Brake pads, rotors, calipers and suspension repairs to keep you safe on the road.</p>
+        </article>
+        <article class="card">
+          <h3>Oil Changes & Maintenance</h3>
+          <p>Fast oil and filter changes, fluid top-ups, and scheduled maintenance plans.</p>
+        </article>
+        <article class="card">
+          <h3>AC & Heating</h3>
+          <p>AC recharge, leak repair, and heating system service for comfortable driving.</p>
+        </article>
+        <article class="card">
+          <h3>Tires & Alignment</h3>
+          <p>Tire mounting, balancing, rotation and precise wheel alignments.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" style="margin-top:28px;">
+      <h2>About Us</h2>
+      <p>Shiraz Car Care is a locally owned auto repair shop delivering honest, high-quality service for all makes and models. Our certified mechanics focus on reliable repairs and clear pricing.</p>
+    </section>
+
+    <section id="contact" style="margin-top:22px;">
+      <h2>Contact</h2>
+      <div class="contact-row">
+        <div><strong>Address:</strong> Example Street, Shiraz</div>
+        <div><strong>Phone:</strong> +98 71 1234 5678</div>
+        <div><strong>Email:</strong> <a href="mailto:ehsanebrahimnejad2008@gmail.com">ehsanebrahimnejad2008@gmail.com</a></div>
+      </div>
+      <p style="text-align:center; margin-top:16px;">
+        <a class="btn" href="tel:+987112345678">Call Now</a>
+        <a class="btn" href="mailto:ehsanebrahimnejad2008@gmail.com" style="background:#333;">Email Us</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      &copy; 2025 Shiraz Car Care — All rights reserved.
+    </div>
+  </footer>
+</body>
+</html>
